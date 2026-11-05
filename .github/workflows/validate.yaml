@@ -35,6 +35,6 @@ jobs:
         with:
           maintainers_file: 'maintainers.yaml'
           # Disabled until the LFX LLT issue is resolved. Validation is done manually for now.
-          verify_maintainers: 'false'
+          verify_maintainers: 'true'
         env:
           LFX_AUTH_TOKEN: ${{ secrets.LFX_AUTH_TOKEN }}
